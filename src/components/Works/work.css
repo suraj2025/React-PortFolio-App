@@ -28,6 +28,7 @@
 }
 .workImg{
    object-fit: cover;
+    box-shadow:1px 1px 20px white,1px 1px 20px aqua;
    height: 20rem;
    margin: 0.5rem;
 }
