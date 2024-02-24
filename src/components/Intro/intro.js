@@ -1,4 +1,5 @@
 import React from 'react'
+import cvFile from './assets/your_cv_file.pdf';
 import './intro.css'
 import bg from '../../assets/image.jpg'
 import hire from '../../assets/hireme.png'
@@ -10,7 +11,7 @@ const intro = () => {
             <span className='hello'>Hello</span>
             <span className='introText'>I'm <span className='introName'>Suraj Kumar</span><br/>Web Designer</span>
             <p className='introPara'>I am a skilled web designer with experiance in creating <br/> visually apealling and user-friendly websites.</p>
-            <Link><button className='btn'><img src={hire} alt="Logo" className='btnImg'/>Hire Me</button> </Link>
+            <Link><button className='btn'><img src={hire} alt="Logo" className='btnImg'/><a href={cvFile} download="YourName_CV.pdf">Download CV</a></button> </Link>
             </div>
             <img src={bg} alt="" className='bg'/>
 
