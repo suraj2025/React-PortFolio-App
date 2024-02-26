@@ -10,6 +10,7 @@ const intro = () => {
             <div className="introContent">
                 <span className='hello'>Hello</span>
                 <span className='introText'>I'm <span className='introName'>Suraj Kumar</span><br />
+                    <span style={{"color":"#34ebe8"}}>
                     <Typewriter
                         words={['  Coder', '  Web Developer', '  Hacker']}
                         loop={true}
@@ -19,6 +20,7 @@ const intro = () => {
                         deleteSpeed={30}
                         delaySpeed={1000}
                     />
+                            </span>
                 </span>
                 <p className='introPara'>I am  a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving.</p>
 
