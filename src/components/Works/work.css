@@ -9,26 +9,142 @@
     text-align: center;
     padding: 0 1rem;
     margin: 0 auto;
+    margin-top: 10rem;
 }
 .workTitle{
     margin: 1rem 0;
     font-size: 3rem;
+    font-size: 2.5rem;
+    color: rgb(28, 138, 215);
+   font-weight: 600;
+   border-bottom: 5px  solid rgb(159, 231, 14);
 }
-.workDesc{
-    font-weight: 300;
-    font-size: 3rem;
+
+
+
+/* styles.css */
+.skills-gallery {
+  display: flex; 
+  padding: 0.5rem;
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
-.workImgs{
+.skillBar{
+  display: flex;
+  margin: 10rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50,50,50);
+}
+/* Styles for each image */
+.skills-gallery img {
+  width: 180px; /* Set the width of the images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px; /* Add margin around images */
+  padding: 20px; /* Add padding around images */
+  /* border: solid 2px red; */
+  animation: moveImages 10s linear infinite; /* Animation to move images */
+  box-shadow: rgb(29, 155, 240) 0px 0px 25px;
+}
+
+@keyframes moveImages {
+  /*  */
+  0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move off-screen to the left */
+    }
+    
+}
+/* Default styles */
+.education-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-width: 65rem;
-}
-.workImg{
-   object-fit: cover;
-    box-shadow:1px 1px 20px white,1px 1px 20px aqua;
-   height: 20rem;
-   margin: 0.5rem;
-}
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  
+  .animation-container {
+    width: 100%;
+    margin-right: 5rem;
+  }
+  
+  .education-content {
+    width: 100%;
+    padding: 20px;
+    
+  }
+  
+  .details {
+    margin-left: 0;
+  }
+  
+  .data {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #0D1321;
+   
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      margin-top: 3rem;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For tablets and larger devices */
+  @media (min-width: 768px) {
+    .education-container {
+      flex-direction: row;
+    }
+  
+    .animation-container {
+      width: 50%;
+    }
+  
+    .education-content {
+      width: 50%;
+    }
+  
+    .details {
+      margin-left: 20px;
+    }
+  }
+  
+  /* For laptops and larger devices */
+  @media (min-width: 1024px) {
+    .data {
+      padding: 15px;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 767px) {
+    .data {
+      padding: 8px;
+    }
+  }
+  .logo-container {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .logo1 {
+    max-width: 50px; /* Adjust size as needed */
+  }
+  
+  .demo {
+    flex: 1; /* Take up remaining space */
+  }
+  .year{
+    color: rgb(32, 153, 218);
+    font-weight: bold;
+    font-size:large;
+    
+  }
+  .course{
+    font-size:medium;
+    font-weight: bolder;
+
+  }
