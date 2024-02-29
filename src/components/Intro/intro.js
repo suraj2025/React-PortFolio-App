@@ -24,7 +24,7 @@ const intro = () => {
                 </span>
                 <p className='introPara'>I am  a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving.</p>
 
-                <a href="./assets/suraj.pdf" download="resume.pdf">
+                <a src="https://docs.google.com/document/d/1UnuYOPkl867rfIt3EYxQcCxC87c-esQWtIpNJWeku7I/edit">
                     <button className='btn'>Download CV</button>
                 </a>
             </div>
