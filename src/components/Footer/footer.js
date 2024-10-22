@@ -1,9 +1,9 @@
 import React from 'react'
-import './footer.css'
+
 const footer = () => {
   return (
-    <footer className='footer'>
-        Copyright &#169; 2023 Suraj Kumar. All right received.
+    <footer className='bg-black text-white flex justify-center pb-10'>
+        Copyright &#169; {new Date().getFullYear()} Suraj Kumar. All right received.
     </footer>
   )
 }
