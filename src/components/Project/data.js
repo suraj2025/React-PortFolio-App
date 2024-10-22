@@ -4,7 +4,7 @@ import {Blog,Guftgu,Keeper,Ticket,Weather,Todo,Game,Matrix,Calc} from "../../ass
          title: "Guftgu",
          imageSrc: Guftgu,
          desc:"Real-time chat app developed using the MERN stack and Socket.io, enabling seamless communication between users with features like instant messaging, and user authentication. ",
-         demoUrl:"https://guftgu-chatapp-frontend.onrender.com/login",
+         demoUrl:"https://guftgu-chatapp-frontend.onrender.com/",
          souceCodeUrl:"https://github.com/suraj2025/guftgu-chatapp"
         },
         {
