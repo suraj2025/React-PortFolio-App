@@ -24,7 +24,7 @@ const Intro = () => {
             I am a passionate programmer and quick learner. I love exploring new technologies and solving problems.
         </p>
 
-        <a href="https://drive.google.com/file/d/1mNNf2cPBOBCCkqDc4QuwXF6EjQC7Lk_E/view?usp=sharing" download="suraj.pdf">
+        <a href={`${process.env.PUBLIC_URL}/suraj_kumar.pdf`} download="suraj.pdf">
             <button className="bg-white text-black font-bold shadow-lg rounded-full py-2 px-4 sm:py-3 sm:px-5 mt-4 transition-all hover:bg-yellow-600">
                 Download CV
             </button>
