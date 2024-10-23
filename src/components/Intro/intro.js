@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import bg from '../../assets/image.jpg';
-import Cv from "./assets/suraj.pdf"
+// import Cv from "./assets/suraj.pdf"
 const Intro = () => {
     return (
         <section id="intro" className="relative flex flex-col-reverse lg:flex-row justify-between bg-black px-4 sm:px-8 lg:px-16 text-white">
@@ -24,7 +24,7 @@ const Intro = () => {
             I am a passionate programmer and quick learner. I love exploring new technologies and solving problems.
         </p>
 
-        <a href={Cv} download="suraj.pdf">
+        <a href="https://drive.google.com/file/d/1mNNf2cPBOBCCkqDc4QuwXF6EjQC7Lk_E/view?usp=sharing" download="suraj.pdf">
             <button className="bg-white text-black font-bold shadow-lg rounded-full py-2 px-4 sm:py-3 sm:px-5 mt-4 transition-all hover:bg-yellow-600">
                 Download CV
             </button>
