@@ -11,7 +11,7 @@ const Projects = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {data.map((d, id) => (
-                    <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-gray-800 m-4">
+                    <div className="w-full m-5 rounded-2xl overflow-hidden shadow-lg bg-gray-800  md:max-w-sm">
                         <img className="w-full h-48 object-cover" src={d.imageSrc} alt={d.title} />
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">{d.title}</div>
