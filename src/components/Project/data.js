@@ -18,7 +18,7 @@ import {Blog,Guftgu,Keeper,Ticket,Weather,Todo,Game,Matrix,Calc} from "../../ass
       title: "Blogify",
       imageSrc:Blog,
       desc:"it is bloging app build using Node JS and EJS (for server side rendering) where anyone can see the posted blog, post own blog and also comment on any blogs.",
-      demoUrl:"https://adorable-eagerness-production.up.railway.app/",
+      demoUrl:"https://blogify-md5y.onrender.com/",
       souceCodeUrl:"https://github.com/suraj2025/blogify"
     },
     {
